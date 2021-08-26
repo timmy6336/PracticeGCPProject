@@ -1,0 +1,20 @@
+{
+  "name": "first_practice_project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "engines": {
+    "node": ">= 12.20.0"
+  },
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/datastore": "^6.5.0",
+    "express": "^4.17.1",
+    "nconf": "^0.11.3"
+  }
+}
