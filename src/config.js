@@ -27,7 +27,6 @@ nconf
     'NODE_ENV',
     'PORT',
     'GOOGLE_APPLICATION_CREDENTIALS'
-
   ])
   // 3. Config file
   .file({ file: path.join(__dirname, 'config.json') })
@@ -35,9 +34,9 @@ nconf
   .defaults({
 
     // This is the id of your project in the Google Cloud Developers Console.
-    GCLOUD_PROJECT: 'tcss445-assignments-troma',
+    GCLOUD_PROJECT: '',
     GCLOUD_BUCKET: '',
-    GOOGLE_APPLICATION_CREDENTIALS: 'C:\Users\Timmy\OneDrive\Desktop\GCP Practice Projects\first_practice_project\src\credentials\credentials.json',
+    GOOGLE_APPLICATION_CREDENTIALS: '',
 
     PORT: 8080
   });
