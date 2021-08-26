@@ -24,4 +24,4 @@ npm install
 echo "Project ID: $DEVSHELL_PROJECT_ID"
 
 echo "Deploying App Engine app. This may take some time..."
-gcloud app deploy ./frontend/app.yaml
+gcloud app deploy ./app.yaml
