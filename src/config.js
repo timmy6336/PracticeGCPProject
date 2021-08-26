@@ -34,7 +34,7 @@ nconf
   .defaults({
 
     // This is the id of your project in the Google Cloud Developers Console.
-    GCLOUD_PROJECT: '',
+    GCLOUD_PROJECT: 'practiceproject-324119',
     GCLOUD_BUCKET: '',
     GOOGLE_APPLICATION_CREDENTIALS: '',
 
